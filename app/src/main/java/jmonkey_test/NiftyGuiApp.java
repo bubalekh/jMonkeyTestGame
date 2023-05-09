@@ -37,8 +37,8 @@ public class NiftyGuiApp extends SimpleApplication {
         guiViewPort.addProcessor(niftyDisplay);
 
         // disable the fly cam
-//        flyCam.setEnabled(false);
-//        flyCam.setDragToRotate(true);
+        flyCam.setEnabled(false);
+        flyCam.setDragToRotate(true);
         inputManager.setCursorVisible(true);
     }
 }
