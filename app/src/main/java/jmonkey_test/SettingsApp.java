@@ -11,18 +11,7 @@ import com.jme3.scene.shape.Box;
 import com.jme3.system.AppSettings;
 import jmonkey_test.settings.GameSettings;
 
-public class App extends SimpleApplication {
-
-    public static void main(String[] args) {
-
-        App app = new App();
-
-        AppSettings settings = new GameSettings().loadOrDefault();
-        app.setSettings(settings);
-
-        app.start();
-
-    }
+public class SettingsApp extends SimpleApplication {
 
     @Override
     public void simpleInitApp() {
